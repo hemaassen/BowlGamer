@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BowlGamer</string>
+    <string name="help">Hilfe</string>
+    <string name="settings">Einstellungen</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="game_day">Spieltag:</string>
+    <string name="player_name">Spielername:</string>
+    <string name="spiel_1">Spiel 1</string>
+    <string name="hint_0">0000</string>
+    <string name="game1">Spiel 1</string>
+    <string name="game2">Spiel 2</string>
+    <string name="game3">Spiel 3</string>
+    <string name="players_hint">Mustermann, Gabi</string>
+    <string name="game4">Spiel 4</string>
+    <string name="game5">Spiel 5</string>
+    <string name="game6">Spiel 6</string>
+    <string name="game7">Spiel 7</string>
+    <string name="game8">Spiel 8</string>
+    <string name="game9">Spiel 9</string>
+</resources>
