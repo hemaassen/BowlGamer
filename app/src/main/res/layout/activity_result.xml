@@ -74,8 +74,8 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="16dp"
-                    android:gravity="center"
-                    android:hint="@string/players_hint"
+                    android:gravity="left"
+                    android:text="@string/spieler1"
                     android:textColor="#000000"
                     android:textSize="14sp"/>
                 <TextView
@@ -84,8 +84,8 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="16dp"
-                    android:gravity="center"
-                    android:hint="@string/players_hint"
+                    android:gravity="left"
+                    android:text="@string/spieler2"
                     android:textColor="#000000"
                     android:textSize="14sp"/>
                 <TextView
@@ -94,8 +94,8 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="16dp"
-                    android:gravity="center"
-                    android:hint="@string/players_hint"
+                    android:gravity="left"
+                    android:text="@string/spieler3"
                     android:textColor="#000000"
                     android:textSize="14sp"/>
                 <TextView
@@ -104,8 +104,8 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="16dp"
-                    android:gravity="center"
-                    android:hint="@string/players_hint"
+                    android:gravity="left"
+                    android:text="@string/spieler4"
                     android:textColor="#000000"
                     android:textSize="14sp"/>
 
@@ -133,9 +133,8 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="15dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="Bahn-Nr.:"
-                    android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -144,9 +143,8 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="15dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="Gegner:"
-                    android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -155,9 +153,8 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="15dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="Pins-Team:"
-                    android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -166,9 +163,8 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="15dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="Pins-Gegner:"
-                    android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -177,9 +173,8 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="15dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="Punkte:"
-                    android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />

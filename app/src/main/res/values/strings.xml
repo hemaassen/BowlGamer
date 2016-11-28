@@ -18,4 +18,8 @@
     <string name="game7">Spiel 7</string>
     <string name="game8">Spiel 8</string>
     <string name="game9">Spiel 9</string>
+    <string name="spieler2">Peters, Jochen</string>
+    <string name="spieler3">Sorglos, Susi</string>
+    <string name="spieler4">Panzer, Paul</string>
+    <string name="spieler1">Mustermann, Gabi</string>
 </resources>

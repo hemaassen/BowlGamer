@@ -8,7 +8,7 @@
         android:label="Liga Bowling"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:name=".ResultActivity"
+            android:name=".ResultActivity_"
             android:label="Ergebniseingabe"
             android:parentActivityName=".MainActivity">
         </activity>
