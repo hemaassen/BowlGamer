@@ -19,6 +19,7 @@
         <activity
             android:name=".ResultActivity_"
             android:label="Ergebniseingabe"
+            android:windowSoftInputMode="stateAlwaysHidden"
             android:parentActivityName=".MainActivity">
         </activity>
     </application>

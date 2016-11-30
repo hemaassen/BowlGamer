@@ -1,9 +1,12 @@
 package com.example.helge.bowlgamer;
 
+import android.app.Activity;
+import android.content.Context;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -17,6 +20,10 @@ import org.androidannotations.annotations.ViewById;
 @EActivity(R.layout.activity_result)
 public class ResultActivity extends AppCompatActivity {
 
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
 
     @ViewById
     TextView player1_summary, player2_summary, player3_summary, player4_summary, player5_summary, player6_summary;
@@ -79,13 +86,14 @@ public class ResultActivity extends AppCompatActivity {
         };
 
         final TextView[] gameSummeries = {
-                teampins_game1, teampins_game2, teampins_game3, teampins_game4, teampins_game5, teampins_game6, teampins_game7, teampins_game8, teampins_game6
+                teampins_game1, teampins_game2, teampins_game3, teampins_game4, teampins_game5, teampins_game6, teampins_game7, teampins_game8, teampins_game9
         };
         View.OnFocusChangeListener updateSumsListener = new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 // pay attention that you never got more then 9 player / games
                 if (!hasFocus) {
+                    hideKeyboardFrom(v.getContext(),v);
                     // Update player(player)_summary and teampins_game(game) depending on which edittext lost focus
                     int tagCounter = Integer.parseInt((String) v.getTag());
                     int player = tagCounter / 10;
