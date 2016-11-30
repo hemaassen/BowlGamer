@@ -6,15 +6,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @OptionsMenu(R.menu.result_menu)
 @EActivity(R.layout.activity_result)
@@ -52,7 +49,6 @@ public class ResultActivity extends AppCompatActivity {
     @ViewById
     EditText player_6_game_6, player_6_game_7, player_6_game_8, player_6_game_9;
 
-
     @AfterViews
     protected void init() {
         setListeners();
@@ -65,6 +61,7 @@ public class ResultActivity extends AppCompatActivity {
             actionBar.setIcon(R.mipmap.ic_launcher);
         }
     }
+
 
     private void setListeners() {
 
@@ -82,9 +79,8 @@ public class ResultActivity extends AppCompatActivity {
         };
 
         final TextView[] gameSummeries = {
-                teampins_game1, teampins_game2, teampins_game3, teampins_game4, teampins_game5
+                teampins_game1, teampins_game2, teampins_game3, teampins_game4, teampins_game5, teampins_game6, teampins_game7, teampins_game8, teampins_game6
         };
-
         View.OnFocusChangeListener updateSumsListener = new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
